@@ -1,0 +1,55 @@
+.App {
+    margin: 5px;
+    padding: 3rem;
+    
+}
+.likeButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.counter {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    color: black;
+    font-size: 2rem;
+    border: 2px solid hwb(240 0% 0% / 0.67);
+    width: 25%;
+
+}
+
+.counter > button {
+    aspect-ratio: 1 / 1;
+    background-color: blue;
+    color: white;
+    width: 2rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.counter > button:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.picture {
+    margin: 2rem;
+    width: 50%;
+}
+
+.picture > img {
+    max-width: 20%;
+}
+
+.discoButton {
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+}
+
+.carousel {
+    margin-top: 2rem;
+}
